@@ -1,0 +1,8 @@
+{
+  "buildCommand": "cd pascalconfort && npm run build",
+  "outputDirectory": "pascalconfort/.next",
+  "installCommand": "cd pascalconfort && npm install",
+  "devCommand": "cd pascalconfort && npm run dev",
+  "framework": "nextjs",
+  "rootDirectory": "pascalconfort"
+}
