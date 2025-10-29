@@ -7,7 +7,7 @@ const ImageSection = ({ className, height }: { className: string; height: string
   <div className={`relative ${className}`}>
     <div className={`relative ${height} rounded-lg overflow-hidden shadow-2xl`}>
       <Image
-        src="/images/portfolio/confort-instal.png"
+        src="/images/portfolio/Confort-Instal_Yellow.png"
         alt={`${COMPANY_INFO.name} Logo - ${COMPANY_INFO.tagline}`}
         fill
         className="object-contain"
