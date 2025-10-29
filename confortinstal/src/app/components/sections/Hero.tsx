@@ -5,7 +5,7 @@ import { CONTACT_INFO, WHATSAPP_MESSAGES, COMPANY_INFO } from '@/app/lib/constan
 
 const ImageSection = ({ className, height }: { className: string; height: string }) => (
   <div className={`relative ${className}`}>
-    <div className={`relative ${height} rounded-lg overflow-hidden shadow-2xl`}>
+    <div className={`relative ${height} rounded-lg overflow-hidden shadow-2xl bg-gradient-to-br from-blue-50 to-white`}>
       <Image
         src="/images/portfolio/Confort-Instal_Yellow.png"
         alt={`${COMPANY_INFO.name} Logo - ${COMPANY_INFO.tagline}`}
