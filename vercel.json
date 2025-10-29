@@ -3,6 +3,5 @@
   "outputDirectory": "confortinstal/.next",
   "installCommand": "cd confortinstal && npm install",
   "devCommand": "cd confortinstal && npm run dev",
-  "framework": "nextjs",
-  "rootDirectory": "confortinstal"
+  "framework": "nextjs"
 }

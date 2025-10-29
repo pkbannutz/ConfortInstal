@@ -56,23 +56,14 @@ export function ContactForm({ hideTitle = false, hideNormalButton = false, hideC
     setSubmitStatus('idle');
 
     try {
-      await emailjs.send(
-        'service_123456789', // Replace with actual service ID
-        'template_123456789', // Replace with actual template ID
-        {
-          from_name: data.name,
-          from_phone: data.phone,
-          from_address: data.address,
-          message: data.message,
-          to_email: CONTACT_INFO.email,
-        },
-        'public_key_123456789' // Replace with actual public key
-      );
+      const whatsappMessage = `*CONFORT INSTAL - Cerere Ofertă Instalator Iași*\n\n*Mesaj:* *${data.message}*\n\n*Adresa:* ${data.address}\n\n*Nume:* ${data.name}\n*Telefon:* ${data.phone}`;
+      const whatsappUrl = `${CONTACT_INFO.whatsappUrl}?text=${encodeURIComponent(whatsappMessage)}`;
+      window.open(whatsappUrl, '_blank');
 
       setSubmitStatus('success');
       reset();
     } catch (error) {
-      console.error('EmailJS error:', error);
+      console.error('Normal submit error:', error);
       setSubmitStatus('error');
     } finally {
       setIsSubmitting(false);
@@ -147,7 +138,7 @@ export function ContactForm({ hideTitle = false, hideNormalButton = false, hideC
               <div className="flex flex-col gap-4">
                 {!hideNormalButton && (
                   <Button
-                    type="submit"
+                    type="button"
                     variant="primary"
                     size="lg"
                     className="w-full"
