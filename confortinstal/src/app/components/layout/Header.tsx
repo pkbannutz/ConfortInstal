@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from 'react';
+import Image from 'next/image';
 import { useEmergencyStore } from '@/app/hooks/useEmergencyStore';
 import { Button } from '@/app/components/ui/Button';
 import { CONTACT_INFO, WHATSAPP_MESSAGES, COMPANY_INFO } from '@/app/lib/constants';
@@ -30,9 +31,21 @@ export function Header() {
     <header className="fixed top-0 left-0 right-0 z-50 bg-white shadow-md">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          {/* Logo */}
+          {/* Brand: name + logo */}
           <div className="flex-shrink-0">
-            <h1 className="text-xl font-bold text-blue-900">{COMPANY_INFO.name}</h1>
+            <div className="flex items-center gap-2 md:gap-3">
+              <h1 className="text-xl font-bold text-blue-900 leading-none">
+                {COMPANY_INFO.name}
+              </h1>
+              <Image
+                src="/images/portfolio/Confort-Instal_Yellow_Logo.png"
+                alt={`${COMPANY_INFO.name} logo`}
+                width={120}
+                height={40}
+                priority
+                className="h-6 w-auto md:h-7 object-contain select-none"
+              />
+            </div>
           </div>
 
           {/* Desktop Navigation */}
