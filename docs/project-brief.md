@@ -1,12 +1,12 @@
-Project Brief: PascalConfort
+Project Brief: CONFORT INSTAL
 
 
 Executive Summary
 
-Product Concept: PascalConfort is a premium, SEO-optimized, single-page website for Daniel Pascal, an expert instalator autorizat in Iași, Romania, designed to convert local visitors searching for instalații sanitare and instalații termice into customers.
+Product Concept: CONFORT INSTAL is a premium, SEO-optimized, single-page website for Daniel Pascal, an expert instalator autorizat in Iași, Romania, designed to convert local visitors searching for instalații sanitare and instalații termice into customers.
 Primary Problem Being Solved: Local residents in Iași lack a clear, fast, and trustworthy online method to find and contact a professional, ANRE-certified instalator for both urgențe instalații and scheduled work.
 Target Market Identification: Romanian-speaking homeowners, renters, and business property managers within the Iași local area searching online for plumbing services (instalator Iași, reparații instalații, etc.).
-Key Value Proposition: PascalConfort provides immediate one-tap access (Call, WhatsApp) to a trusted, authorized instalator. Trust and local SEO relevance are built instantly through a sleek, modern design, professional photography, keyword-rich service listings, LocalBusiness schema, and a clear work guarantee.
+Key Value Proposition: CONFORT INSTAL provides immediate one-tap access (Call, WhatsApp) to a trusted, authorized instalator. Trust and local SEO relevance are built instantly through a sleek, modern design, professional photography, keyword-rich service listings, LocalBusiness schema, and a clear work guarantee.
 
 
 Problem Statement
@@ -45,7 +45,7 @@ Goals & Success Metrics
 Business Objectives
 	•	Primary: Generate qualified leads (calls, WhatsApp, form submissions) from users searching for instalator Iași and related terms.
 	•	Secondary: Achieve top local search rankings for core keywords (instalator autorizat Iași, urgențe instalații Iași).
-	•	Tertiary: Establish PascalConfort as a premium, trusted brand online.
+•	Tertiary: Establish CONFORT INSTAL as a premium, trusted brand online.
 User Success Metrics
 	•	Emergency User: Time-to-contact < 10 seconds.
 	•	Planner User: User views Services, Gallery, and Contact sections.
@@ -81,7 +81,7 @@ The single-page site is fully responsive, visually polished, deployed on Vercel,
 Post-MVP Vision
 
 Phase 2: Marketing & Advanced SEO (3 Months)
-	•	Purchase pascalconfort.ro domain.
+	•	Purchase domain (e.g., confort-instal.ro).
 	•	Create and fully optimize Google Business Profile, linking to the site. This is crucial for local SEO.
 	•	Implement LocalBusiness JSON-LD structured data on the website.
 	•	Refine on-page content based on initial keyword performance.
@@ -137,4 +137,4 @@ Immediate Actions
 	1	Gather all "Open Questions" content, emphasizing SEO needs.
 	2	Proceed to PRD Generation Mode.
 PM Handoff
-This Brief provides context for PascalConfort. Create the PRD, ensuring strong focus on Romanian keywords, technical SEO implementation, conversion optimization, and high-end design.
+This Brief provides context for CONFORT INSTAL. Create the PRD, ensuring strong focus on Romanian keywords, technical SEO implementation, conversion optimization, and high-end design.

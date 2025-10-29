@@ -1,11 +1,11 @@
 
 -----
 
-# PascalConfort UI/UX Specification
+# CONFORT INSTAL UI/UX Specification
 
 ## Introduction
 
-This document defines the user experience goals, information architecture, user flows, and visual design specifications for PascalConfort, focusing on high trust, rapid conversion, and supporting **strong local SEO for `instalator Iași`**. The design must be clean, modern, sleek, and innovative.
+This document defines the user experience goals, information architecture, user flows, and visual design specifications for CONFORT INSTAL, focusing on high trust, rapid conversion, and supporting **strong local SEO for `instalator Iași`**. The design must be clean, modern, sleek, and innovative.
 
 ### Overall UX Goals & Principles
 

@@ -1,7 +1,7 @@
 
 ---
 
-# PascalConfort Product Requirements Document (PRD)
+# CONFORT INSTAL Product Requirements Document (PRD)
 
 ## Goals and Background Context
 
@@ -212,7 +212,7 @@ This project creates a high-conversion, **SEO-focused**, single-page website for
 ## Next Steps
 
 **Architect Prompt**
-* This PRD provides requirements for the **SEO-focused**, static PascalConfort SPA. Create the Fullstack Architecture, ensuring implementation details cover:
+* This PRD provides requirements for the **SEO-focused**, static CONFORT INSTAL SPA. Create the Fullstack Architecture, ensuring implementation details cover:
     * Next.js static export setup (`output: 'export'`).
     * Tailwind CSS configuration for the design system.
     * **Implementation of technical SEO elements: semantic HTML structure in components, dynamic metadata generation in `layout.tsx`, image optimization with `next/image`, and inclusion of the `LocalBusiness` JSON-LD schema script.**

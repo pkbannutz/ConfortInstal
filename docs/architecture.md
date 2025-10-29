@@ -2,11 +2,11 @@
 
 -----
 
-# PascalConfort Fullstack Architecture Document
+# CONFORT INSTAL Fullstack Architecture Document
 
 ## Introduction
 
-This document details the **SEO-focused, static, serverless architecture** for PascalConfort. It guides AI development for the Next.js/Tailwind SPA, ensuring performance, maintainability, and crucially, **high visibility in local searches for `instalator Iași`**.
+This document details the **SEO-focused, static, serverless architecture** for CONFORT INSTAL. It guides AI development for the Next.js/Tailwind SPA, ensuring performance, maintainability, and crucially, **high visibility in local searches for `instalator Iași`**.
 
 **Starter Template or Existing Project**
 
@@ -40,7 +40,7 @@ The architecture is a **Statically Exported Next.js Application**, optimized for
 ```mermaid
 graph TD
     subgraph "User's Device (Browser)"
-        A[User] --> B[pascalconfort.ro (Static HTML + JSON-LD)];
+        A[User] --> B[site (Static HTML + JSON-LD)];
         B -- Clicks Call --> C[tel:+40752399616];
         B -- Clicks WhatsApp --> D[wa.me/40752399616];
     end
@@ -150,7 +150,7 @@ This section details the critical technical SEO elements required.
     import type { Metadata } from 'next';
 
     export const metadata: Metadata = {
-      title: 'PascalConfort - Instalator Autorizat Iași | Urgențe Non-Stop',
+      title: 'CONFORT INSTAL - Instalator Autorizat Iași | Urgențe Non-Stop',
       description: 'Instalator sanitar și termic autorizat în Iași. Intervenții rapide pentru urgențe, reparații, montaj centrale. Seriozitate și Garanție. Sună Acum!',
       // Add other relevant metadata like openGraph, twitter cards if needed later
     };
@@ -182,7 +182,7 @@ This section details the critical technical SEO elements required.
 
     <Image
       src="/images/work/reparatie-teava-iasi.jpg" // Example path
-      alt="Reparație țeavă spartă în baie - Instalator Iași PascalConfort" // Descriptive Romanian Alt Text
+      alt="Reparație țeavă spartă în baie - Instalator Iași CONFORT INSTAL" // Descriptive Romanian Alt Text
       width={500}
       height={300}
       // Add sizes for responsive loading if needed
@@ -205,8 +205,8 @@ This section details the critical technical SEO elements required.
     import { Plumber, WithContext } from 'schema-dts'; // Use Plumber subtype
 
     // Get accurate details from .env or config
-    const ORG_NAME = "PascalConfort";
-    const ORG_URL = "https://pascalconfort.ro"; // Replace with actual domain later
+    const ORG_NAME = "CONFORT INSTAL";
+    const ORG_URL = "https://confort-instal.ro"; // Replace with actual domain later
     const ORG_LOGO = `${ORG_URL}/images/logo.png`; // Example path
     const ORG_PHONE = "+40752399616";
     const ORG_STREET = "Strada Exemplu Nr. 10"; // !! Replace with REAL Address
@@ -253,7 +253,7 @@ This section details the critical technical SEO elements required.
         // Add Sunday if applicable, or specify non-stop if true
       ],
       "sameAs": [ // Optional: Add social media links if they exist
-        // "https://www.facebook.com/pascalconfortiasi"
+        // "https://www.facebook.com/confortinstal"
       ],
        "areaServed": { // Define service area
            "@type": "City",
@@ -283,7 +283,7 @@ This section details the critical technical SEO elements required.
 This is a standard Next.js 14 (App Router) structure. No monorepo is needed.
 
 ```plaintext
-pascalconfort/
+confortinstal/
 ├── .github/
 │   └── workflows/
 │       └── deploy.yml      # (Optional, Vercel auto-deploys)
@@ -341,7 +341,7 @@ pascalconfort/
 2.  **Initial Setup:**
     ```bash
     git clone [repo-url]
-    cd pascalconfort
+    cd confortinstal
     npm install
     cp .env.example .env.local
     ```
