@@ -1,0 +1,77 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - heading "PascalConfort" [level=1] [ref=e8]
+          - generic [ref=e9]:
+            - button "Dezactivează mod urgență" [ref=e10]: Normal
+            - button "Toggle menu" [active] [ref=e11]:
+              - img [ref=e12]
+        - generic [ref=e15]:
+          - button "Servicii" [ref=e16]
+          - button "Despre" [ref=e17]
+          - button "Contact" [ref=e18]
+    - generic [ref=e21]:
+      - generic [ref=e22]:
+        - paragraph [ref=e23]: Daniel Pascal - Instalator Expert
+        - paragraph [ref=e24]: 30+ ani experiență • 500+ clienți mulțumiți
+      - link "📞 Sună Acum" [ref=e26] [cursor=pointer]:
+        - /url: tel:+40752399616
+    - generic [ref=e28]:
+      - generic [ref=e29]:
+        - heading "Solicită Intervenție Rapidă" [level=2] [ref=e30]
+        - paragraph [ref=e31]: Completează formularul pentru o estimare rapidă și programare urgentă
+      - generic [ref=e36]:
+        - generic [ref=e37]:
+          - generic [ref=e38]: Nume complet *
+          - textbox "Numele dumneavoastră" [ref=e39]
+        - generic [ref=e40]:
+          - generic [ref=e41]: Număr telefon *
+          - textbox "Număr de telefon" [ref=e42]
+        - generic [ref=e43]:
+          - generic [ref=e44]: Cartierul sau adresa aproximativă *
+          - 'textbox "Ex: Copou, Șoseaua Pavel Dimitrie Kiseleff 10" [ref=e45]'
+        - generic [ref=e46]:
+          - generic [ref=e47]: Mesaj / Descriere problemă *
+          - textbox "Descrieți lucrarea sau problema..." [ref=e48]
+        - button "🚨 URGENT" [ref=e50]
+    - generic [ref=e53]:
+      - generic [ref=e54]:
+        - heading "🚰 Urgențe Apa" [level=3] [ref=e55]
+        - list [ref=e56]:
+          - listitem [ref=e57]: • Înlocuire robinete sparte
+          - listitem [ref=e58]: • Reparații conducte de apă
+          - listitem [ref=e59]: • Deblocări urgente
+          - listitem [ref=e60]: • Scurgere apă caldă
+      - generic [ref=e61]:
+        - heading "🔥 Urgențe Termice" [level=3] [ref=e62]
+        - list [ref=e63]:
+          - listitem [ref=e64]: • Reparații boiler
+          - listitem [ref=e65]: • Probleme încălzire
+          - listitem [ref=e66]: • Înlocuire calorifere
+          - listitem [ref=e67]: • Reparații instalații termice
+    - generic [ref=e70]:
+      - generic [ref=e71]:
+        - heading "Contact Direct" [level=3] [ref=e72]
+        - generic [ref=e73]:
+          - generic [ref=e74]:
+            - img [ref=e76]
+            - generic [ref=e78]:
+              - paragraph [ref=e79]: Telefon
+              - link "+40752399616" [ref=e80] [cursor=pointer]:
+                - /url: tel:+40752399616
+          - generic [ref=e81]:
+            - img [ref=e83]
+            - generic [ref=e85]:
+              - paragraph [ref=e86]: WhatsApp
+              - link "+40752399616" [ref=e87] [cursor=pointer]:
+                - /url: https://wa.me/40752399616
+      - generic [ref=e88]:
+        - heading "Urgențe 24/7" [level=4] [ref=e89]
+        - paragraph [ref=e90]: Pentru situații de urgență (țevi sparte, inundații, centrale defecte), sunați direct. Intervin rapid în toată zona Iași.
+  - alert [ref=e91]
+```
