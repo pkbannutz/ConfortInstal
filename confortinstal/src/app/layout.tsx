@@ -21,6 +21,10 @@ export const metadata: Metadata = {
   description: "Instalator sanitar și termic în Iași. Intervenții rapide pentru urgențe, reparații, montaj centrale. Seriozitate și Garanție. Sună Acum!",
   keywords: "instalator Iași, urgențe instalații Iași, instalații sanitare Iași, instalații termice Iași, montaj centrale Iași, reparații instalații Iași",
   authors: [{ name: "CONFORT INSTAL" }],
+  icons: {
+    icon: "/images/portfolio/Confort-Instal_Yellow_Logo.png",
+    apple: "/images/portfolio/Confort-Instal_Yellow_Logo.png",
+  },
   openGraph: {
     title: "CONFORT INSTAL - Instalator Iași",
     description: "Instalator sanitar și termic în Iași. Intervenții rapide pentru urgențe, reparații, montaj centrale.",
